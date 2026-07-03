@@ -2,9 +2,9 @@
 Módulo principal del procesamiento de imágenes.
 
 Este script realiza las siguientes operaciones:
-- Lee imágenes desde la carpeta de entrada
-- Redimensiona imágenes
-- Convierte a escala de grises
+- Lee imágenes desde la carpeta denominada "entrada"
+- Redimensiona imágenes a un tamaño máximo de 800x800 píxeles
+- Convierte la imagen a escala de grises
 - Agrega marca de agua
 - Genera un reporte en Excel con información de las imágenes procesadas
 """
