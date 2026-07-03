@@ -1,0 +1,6 @@
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+
+# Archivos generados por Sphinx
+build/

@@ -27,14 +27,13 @@ El programa recorre automáticamente las imágenes ubicadas en una carpeta de en
 ```
 Tarea2_RPV/
 │
-├── entrada/                # Imágenes originales
-├── salida/                 # Imágenes procesadas
+├── entrada/                # Carpeta donde se colocan las imágenes originales
+├── salida/                 # Carpeta donde se guardan las imágenes procesadas
 ├── source/                 # Archivos fuente de Sphinx
-├── build/                  # Documentación HTML generada
 ├── main.py                 # Programa principal
 ├── marca.png               # Imagen utilizada como marca de agua
 ├── requirements.txt        # Dependencias del proyecto
-├── reporte_imagenes.xlsx   # Reporte generado
+├── reporte_imagenes.xlsx   # Ejemplo de un reporte generado
 ├── Makefile
 └── make.bat
 ```
