@@ -1,3 +1,14 @@
+"""
+Módulo principal del procesamiento de imágenes.
+
+Este script realiza las siguientes operaciones:
+- Lee imágenes desde la carpeta de entrada
+- Redimensiona imágenes
+- Convierte a escala de grises
+- Agrega marca de agua
+- Genera un reporte en Excel con información de las imágenes procesadas
+"""
+
 import os
 import xlsxwriter
 from PIL import Image
@@ -5,6 +16,10 @@ from PIL import Image
 
 CARPETA_ENTRADA = "entrada"
 CARPETA_SALIDA = "salida"
+
+"""
+Configuración del sistema de procesamiento de imágenes.
+"""
 
 # Carga la imagen que se utilizará como marca de agua
 marca_original = Image.open("marca.png").convert("RGBA")
